@@ -1,0 +1,7 @@
+.idea/
+venv/
+
+.pre-commit-config.yaml
+.env
+
+__pycache__/

@@ -1,0 +1,21 @@
+{
+  "name": "Crocodile Game",
+  "description": "A Telegram word-based game bot.",
+  "keywords": ["telegram", "python"],
+  "repository": "https://github.com/PatheticProgrammers/CrocodileGame",
+  "env": {
+    "BOT_TOKEN": {
+      "description": "A bot token from @BotFather.",
+      "required": true
+    },
+    "MONGO_URI": {
+      "description": "A MongoDB URI.",
+      "required": true
+    }
+  },
+  "buildpacks": [
+    {
+      "url": "heroku/python"
+    }
+  ]
+}
