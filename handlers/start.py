@@ -35,4 +35,4 @@ def callback(update: Update, context: CallbackContext):
     )
 
 
-handler = CommandHandler('start', callback, Filters.chat_type.private)
+handler = CommandHandler('start', callback, Filters.chat_type.groups)
