@@ -20,13 +20,13 @@ def callback(update: Update, context: CallbackContext):
             [
                 [
                     InlineKeyboardButton(
-                        'View',
+                        'Göster 👁️',
                         callback_data='view',
                     ),
                 ],
                 [
                     InlineKeyboardButton(
-                        'Next',
+                        'Pas 🔄',
                         callback_data='next',
                     ),
                 ],
